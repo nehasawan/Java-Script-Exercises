@@ -1,0 +1,27 @@
+1.<script></script> section:
+
+-->It should be always in body section because browser 
+parses this file from top to bottom.
+if you keep lot of java script code in head section your browser may get busy parsing and executing and it wont able to render the content of the page. It will give bad user experience.
+
+2.Variables:
+-->variable name should be meaningful
+
+-->cannot start with a number (ex.lname)
+
+-->cannot contain space or hyphen
+
+-->camel notation first letter should be small and sec name should be uppercase (ex. firstName)
+
+-->we cant reassign the constant
+
+3.Two types of value:
+primitive-number, string, Boolean, undefined, null reference-object, array, function
+
+
+Array
+--> size opf array is dynamic
+-->it can be int, string
+
+Shortcut:
+Ctrl+L to clear console.
